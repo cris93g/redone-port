@@ -1,0 +1,29 @@
+.Nav {
+	display: flex;
+	border-bottom: 1px solid lightgray;
+	height: 5vh;
+	/* width: 100vw; */
+
+	margin: auto;
+}
+.leftN {
+	display: flex;
+	width: 20vw;
+	margin-top: 4%;
+	margin-left: 4%;
+}
+.middleN {
+	width: 20vw;
+}
+.rightN {
+	display: flex;
+	width: 50vw;
+	margin-top: 1%;
+	margin-left: 1%;
+	justify-content: space-around;
+}
+a {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}

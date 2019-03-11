@@ -1,0 +1,29 @@
+.Projects {
+	display: flex;
+	margin: auto;
+}
+.cardContainer {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	margin: auto;
+}
+
+.Cards {
+	display: flex;
+	margin: auto;
+	height: 350px;
+	width: 250px;
+	background-color: aqua;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: all 0.5s ease;
+}
+.Cards:hover {
+	transform: scale(1.1);
+}
+.sidePara {
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 5%;
+}

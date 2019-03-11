@@ -1,0 +1,7 @@
+h1 {
+	color: red; /* Fallback: assume this color ON TOP of image */
+	background: url(https://images.unsplash.com/photo-1552203274-e3c7bd771d26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+		no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
