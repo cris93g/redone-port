@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Nav.css";
 import { Link } from "react-router-dom";
+import DarkModeToggle from "../nightMode/DarkModeToggle";
 export default class Nav extends Component {
 	render() {
 		return (
@@ -8,6 +9,7 @@ export default class Nav extends Component {
 				<Link to="/">
 					<div className="leftN">Cristian Gonzalez</div>
 				</Link>
+				<DarkModeToggle />
 				<div className="middleN" />
 				<div className="rightN">
 					<Link to="/Projects">
