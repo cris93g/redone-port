@@ -6,13 +6,13 @@ export default class Nav extends Component {
 	render() {
 		return (
 			<div className="Nav">
-				<Link to="/About">
+				<Link to="/">
 					<div className="leftN">Cristian Gonzalez</div>
 				</Link>
 				<DarkModeToggle />
 				<div className="middleN" />
 				<div className="rightN">
-					<Link to="/About">
+					<Link to="/">
 						<div>About</div>
 					</Link>{" "}
 					<Link to="/Projects">

@@ -4,7 +4,6 @@ import "./App.css";
 import { HashRouter as Router } from "react-router-dom";
 import routes from "./routes";
 import Nav from "./components/nav/Nav";
-import ReactContactForm from "react-mail-form";
 
 class App extends Component {
 	render() {

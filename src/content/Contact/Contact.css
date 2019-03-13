@@ -1,0 +1,37 @@
+/* input[type="email"] {
+	height: 5vh;
+	width: 20vw;
+	border-radius: 50px;
+	margin-left: 50%;
+}
+textarea {
+	width: 20vw;
+	height: 30vh;
+	border-radius: 20px;
+	margin-top: 40px;
+}
+.conta {
+	margin-top: 50px;
+} */
+/* .submitB {
+	width: 10px;
+	height: 20px;
+} */
+.wep {
+	width: 30px;
+}
+.contactContainer {
+	margin-left: 35%;
+	margin-top: 15%;
+	width: 40vw;
+	height: 40vh;
+}
+.formT {
+	width: 60px;
+}
+.formHeader {
+	margin-top: -10%;
+	margin-left: 35%;
+	position: absolute;
+	font-size: 3em;
+}

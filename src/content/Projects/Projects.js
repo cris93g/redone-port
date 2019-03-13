@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import "./Projects.css";
+import text from "../../images/text.PNG";
+import twitch from "../../images/twitch-app.PNG";
+import roomers from "../../images/roomers-app.PNG";
+
 export default class Projects extends Component {
 	constructor(props) {
 		super(props);
@@ -23,10 +27,16 @@ export default class Projects extends Component {
 				</div>
 				<div className="Projects">
 					<div className="cardContainer">
-						<div className="Cards" />
-						<div className="Cards" />
-						<div className="Cards" />
-						<div className="Cards" />
+						<div className="Cards">
+							<img src={text} className="textE" />
+						</div>
+						<div className="Cards">
+							<img src={roomers} className="textE" />
+						</div>
+						<div className="Cards">
+							<img src={twitch} className="textE" />
+						</div>
+						<div className="Cards">{/* sadd */}</div>
 						<div className="Cards" />
 					</div>
 				</div>
