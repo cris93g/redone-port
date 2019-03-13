@@ -1,13 +1,7 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
 body.light-mode {
 	background-color: #fff;
 	color: #333;
-	transition: background-color 0.3s ease;
+	transition: background-color 1.8s ease;
 }
 .navbar {
 	background-color: #1b2938;
@@ -32,14 +26,22 @@ body.dark-mode a {
 body.dark-mode h1 {
 	color: red;
 }
-
-body.dark-mode .content a {
-	color: #ee09;
+body.dark-mode h4 {
+	color: #64ffda;
 }
 
-body.dark-mode .content button {
-	color: #ee09;
+body.dark-mode h1 {
+	color: #64ffda;
+	font-family: "Libre+Baskerville";
 }
+
+/* body.dark-mode .content a {
+	color: #ee09;
+} */
+
+/* body.dark-mode .content button {
+	color: #ee09;
+} */
 .toggle-control {
 	position: relative;
 	padding: 0 4px;
@@ -50,7 +52,7 @@ button {
 	font-size: 1.2em;
 	background: none;
 	border: none;
-	color: #ffe600;
+	/* color: #ffe600; */
 	cursor: pointer;
 	transition: color 0.3s ease;
 }
@@ -89,4 +91,20 @@ label {
 }
 input[type="checkbox"].dmcheck:checked + label {
 	left: 30px;
+}
+.dark-mode-toggle {
+	color: #999;
+}
+
+.dark-mode button {
+	color: lightblue;
+}
+h1 {
+	font-family: "Playfair+Display";
+	font-size: 3em;
+}
+
+p {
+	font-family: "Raleway";
+	font-size: 1em;
 }

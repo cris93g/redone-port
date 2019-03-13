@@ -8,7 +8,7 @@ import About from "./content/About/About";
 
 export default (
 	<Switch>
-		<Route component={Home} exact path="/" />
+		<Route component={About} exact path="/" />
 		<Route component={About} exact path="/About" />
 		<Route component={Contact} exact path="/Contact" />
 		<Route component={Education} exact path="/Education" />
