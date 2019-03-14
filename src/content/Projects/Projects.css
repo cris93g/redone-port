@@ -66,7 +66,6 @@
 	.quer {
 		width: 100px;
 		height: 100px;
-		background-color: gray;
 	}
 	.Projects {
 		display: flex;
@@ -86,6 +85,7 @@
 		margin: auto;
 		width: 280px;
 		height: 180px;
+		margin-bottom: 30px;
 		margin-top: 220px;
 		margin-left: 80px;
 		border-radius: 10px;
@@ -118,18 +118,18 @@
 	}
 
 	.textDescription {
-		margin-top: 86vh;
+		margin-top: 90vh;
 		margin-left: 18vw;
 		position: absolute;
 	}
 
 	.roomsDescription {
-		margin-top: 87vh;
+		margin-top: 95vh;
 		margin-left: 0vw;
 		position: absolute;
 	}
 	.twitchDescription {
-		margin-top: 131vh;
+		margin-top: 143vh;
 		margin-left: 0vw;
 		position: absolute;
 	}
@@ -140,7 +140,6 @@
 	.quer {
 		width: 100px;
 		height: 100px;
-		background-color: red;
 	}
 	.Projects {
 		display: flex;
@@ -214,7 +213,6 @@
 	.quer {
 		width: 100px;
 		height: 100px;
-		background-color: blue;
 	}
 	.Projects {
 		display: flex;
@@ -288,7 +286,6 @@
 	.quer {
 		width: 100px;
 		height: 100px;
-		background-color: purple;
 	}
 	.Projects {
 		display: flex;
@@ -362,7 +359,6 @@
 	.quer {
 		width: 100px;
 		height: 100px;
-		background-color: yellow;
 	}
 	.Projects {
 		display: flex;
@@ -432,7 +428,6 @@
 	.quer {
 		width: 100px;
 		height: 100px;
-		background-color: orange;
 	}
 	.Projects {
 		display: flex;
