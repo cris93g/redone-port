@@ -12,15 +12,15 @@
 .Cards {
 	display: flex;
 	margin: auto;
-	width: 350px;
-	height: 250px;
+	width: 380px;
+	height: 280px;
 	/* background-color: aqua; */
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
 	transition: all 0.5s ease;
 }
 .Cards:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 .sidePara {
 	position: absolute;
@@ -28,7 +28,35 @@
 	margin-left: 5%;
 }
 .textE {
+	margin-left: -30px;
 	/* max-height: 100%; */
+	max-width: 110%;
+	border-radius: 10px;
+}
+.digi {
 	max-width: 100%;
 	border-radius: 10px;
+	/* background-size: cover; */
+}
+.projectDescription {
+	margin-top: 67vh;
+	margin-left: 45px;
+	position: absolute;
+}
+
+.textDescription {
+	margin-top: 67vh;
+	margin-left: 28vw;
+	position: absolute;
+}
+
+.roomsDescription {
+	margin-top: -1vh;
+	margin-left: 53vw;
+	position: absolute;
+}
+.twitchDescription {
+	margin-top: -1vh;
+	margin-left: 76vw;
+	position: absolute;
 }
