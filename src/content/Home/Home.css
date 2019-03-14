@@ -355,7 +355,35 @@
 		);
 	}
 }
+@media only screen and (min-width: 1280px) {
+	.myPic {
+		margin-top: -30vh;
+		margin-left: 100vh;
+		width: 300px;
+		height: 300px;
+		background-image: url("../../images/profile.jpg");
 
+		background-size: cover;
+		-webkit-clip-path: polygon(
+			50% 0%,
+			90% 20%,
+			100% 60%,
+			75% 100%,
+			25% 100%,
+			0% 60%,
+			10% 20%
+		);
+		clip-path: polygon(
+			50% 0%,
+			90% 20%,
+			100% 60%,
+			75% 100%,
+			25% 100%,
+			0% 60%,
+			10% 20%
+		);
+	}
+}
 @media only screen and (min-width: 1440px) {
 	.myPic {
 		margin-top: -30vh;
