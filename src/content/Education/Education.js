@@ -98,6 +98,7 @@ export default class Education extends Component {
 						<h4 className="bottomHeaders">Electron</h4>
 					</div>
 				</div>
+				
 			</div>
 		);
 	}

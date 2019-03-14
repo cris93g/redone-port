@@ -35,3 +35,182 @@ textarea {
 	position: absolute;
 	font-size: 3em;
 }
+
+@media only screen and (max-width: 600px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.wep {
+		width: 30px;
+	}
+	.contactContainer {
+		margin-left: 25%;
+		margin-top: 60%;
+		width: 40vw;
+		height: 40vh;
+	}
+	.formT {
+		width: 60px;
+	}
+	.formHeader {
+		margin-top: -40%;
+		margin-left: 15%;
+		position: absolute;
+		font-size: 1.8em;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.wep {
+		width: 30px;
+	}
+	.contactContainer {
+		margin-left: 35%;
+		margin-top: 15%;
+		width: 40vw;
+		height: 40vh;
+	}
+	.formT {
+		width: 60px;
+	}
+	.formHeader {
+		margin-top: -10%;
+		margin-left: 30%;
+		position: absolute;
+		font-size: 1.8em;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.wep {
+		width: 30px;
+	}
+	.contactContainer {
+		margin-left: 35%;
+		margin-top: 15%;
+		width: 40vw;
+		height: 40vh;
+	}
+	.formT {
+		width: 60px;
+	}
+	.formHeader {
+		margin-top: -10%;
+		margin-left: 30%;
+		position: absolute;
+		font-size: 2em;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.wep {
+		width: 30px;
+	}
+	.contactContainer {
+		margin-left: 35%;
+		margin-top: 15%;
+		width: 40vw;
+		height: 40vh;
+	}
+	.formT {
+		width: 60px;
+	}
+	.formHeader {
+		margin-top: -10%;
+		margin-left: 28%;
+		position: absolute;
+		font-size: 3em;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.wep {
+		width: 30px;
+	}
+	.contactContainer {
+		margin-left: 35%;
+		margin-top: 15%;
+		width: 40vw;
+		height: 40vh;
+	}
+	.formT {
+		width: 60px;
+	}
+	.formHeader {
+		margin-top: -10%;
+		margin-left: 30%;
+		position: absolute;
+		font-size: 3em;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.wep {
+		width: 30px;
+	}
+	.contactContainer {
+		margin-left: 35%;
+		margin-top: 15%;
+		width: 40vw;
+		height: 40vh;
+	}
+	.formT {
+		width: 60px;
+	}
+	.formHeader {
+		margin-top: -10%;
+		margin-left: 35%;
+		position: absolute;
+		font-size: 3em;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.wep {
+		width: 30px;
+	}
+	.contactContainer {
+		margin-left: 35%;
+		margin-top: 15%;
+		width: 40vw;
+		height: 40vh;
+	}
+	.formT {
+		width: 60px;
+	}
+	.formHeader {
+		margin-top: -10%;
+		margin-left: 35%;
+		position: absolute;
+		font-size: 3em;
+	}
+}

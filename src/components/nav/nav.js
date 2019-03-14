@@ -13,16 +13,16 @@ export default class Nav extends Component {
 				<div className="middleN" />
 				<div className="rightN">
 					<Link to="/">
-						<div>About</div>
+						<div className="navItem">About</div>
 					</Link>{" "}
 					<Link to="/Projects">
-						<div>Projects</div>
+						<div className="navItem">Projects</div>
 					</Link>
 					<Link to="/Education">
-						<div>Technologies</div>
+						<div className="navItem">Technologies</div>
 					</Link>
 					<Link to="/Contact">
-						<div>Contact</div>
+						<div className="navItem">Contact</div>
 					</Link>
 				</div>
 			</div>

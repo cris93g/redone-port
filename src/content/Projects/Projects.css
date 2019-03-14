@@ -14,7 +14,7 @@
 	margin: auto;
 	width: 380px;
 	height: 280px;
-	/* background-color: aqua; */
+
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
 	transition: all 0.5s ease;
@@ -59,4 +59,246 @@
 	margin-top: -1vh;
 	margin-left: 76vw;
 	position: absolute;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.Projects {
+		display: flex;
+		margin: auto;
+	}
+	.cardContainer {
+		display: flex;
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		margin: auto;
+		flex-wrap: wrap;
+	}
+
+	.Cards {
+		display: flex;
+		margin: auto;
+		width: 300px;
+		height: 300px;
+
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+		transition: all 0.5s ease;
+	}
+	.Cards:hover {
+		transform: scale(1.2);
+	}
+	.sidePara {
+		position: absolute;
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+	.textE {
+		margin-left: -30px;
+		/* max-height: 100%; */
+		max-width: 110%;
+		border-radius: 10px;
+	}
+	.digi {
+		max-width: 100%;
+		border-radius: 10px;
+		/* background-size: cover; */
+	}
+	.projectDescription {
+		margin-top: 62vh;
+		margin-left: 30px;
+		position: absolute;
+	}
+
+	.textDescription {
+		margin-top: 62vh;
+		margin-left: 25vw;
+		position: absolute;
+	}
+
+	.roomsDescription {
+		margin-top: -1vh;
+		margin-left: 50vw;
+		position: absolute;
+	}
+	.twitchDescription {
+		margin-top: -1vh;
+		margin-left: 74vw;
+		position: absolute;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.Projects {
+		display: flex;
+		margin: auto;
+	}
+	.cardContainer {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		margin: auto;
+	}
+
+	.Cards {
+		display: flex;
+		margin: auto;
+		width: 280px;
+		height: 180px;
+
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+		transition: all 0.5s ease;
+	}
+	.Cards:hover {
+		transform: scale(1.2);
+	}
+	.sidePara {
+		position: absolute;
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+	.textE {
+		margin-left: -30px;
+		/* max-height: 100%; */
+		max-width: 110%;
+		border-radius: 10px;
+	}
+	.digi {
+		max-width: 100%;
+		border-radius: 10px;
+		/* background-size: cover; */
+	}
+	.projectDescription {
+		margin-top: 62vh;
+		margin-left: 30px;
+		position: absolute;
+	}
+
+	.textDescription {
+		margin-top: 62vh;
+		margin-left: 25vw;
+		position: absolute;
+	}
+
+	.roomsDescription {
+		margin-top: -1vh;
+		margin-left: 50vw;
+		position: absolute;
+	}
+	.twitchDescription {
+		margin-top: -1vh;
+		margin-left: 74vw;
+		position: absolute;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
+	.Projects {
+		display: flex;
+		margin: auto;
+	}
+	.cardContainer {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		margin: auto;
+	}
+
+	.Cards {
+		display: flex;
+		margin: auto;
+		width: 330px;
+		height: 230px;
+
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+		transition: all 0.5s ease;
+	}
+	.Cards:hover {
+		transform: scale(1.2);
+	}
+	.sidePara {
+		position: absolute;
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+	.textE {
+		margin-left: -30px;
+		/* max-height: 100%; */
+		max-width: 110%;
+		border-radius: 10px;
+	}
+	.digi {
+		max-width: 100%;
+		border-radius: 10px;
+		/* background-size: cover; */
+	}
+	.projectDescription {
+		margin-top: 67vh;
+		margin-left: 45px;
+		position: absolute;
+	}
+
+	.textDescription {
+		margin-top: 67vh;
+		margin-left: 28vw;
+		position: absolute;
+	}
+
+	.roomsDescription {
+		margin-top: -1vh;
+		margin-left: 53vw;
+		position: absolute;
+	}
+	.twitchDescription {
+		margin-top: -1vh;
+		margin-left: 76vw;
+		position: absolute;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.quer {
+		width: 100px;
+		height: 100px;
+	}
 }
